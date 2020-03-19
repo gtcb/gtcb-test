@@ -1,0 +1,16 @@
+<%- include('../partials/header'); %>
+
+<div class= "jumbotron">
+    <h1>New Reptile Photo</h1>
+</div>
+</header>
+
+<main>
+    <form class= "new-photo-form" action= "/reptiles" method= "POST">
+        <h3>Image Title: <input type= "text" name= "title" placeholder= "Image Title"></h3>
+        <h3>Image URL: <input type= "text" name= "image" placeholder= "Image URL"></h3>
+        <button class= "btn btn-success btn-lg">Add Photo</button>
+    </form>
+</main>
+
+<%- include('../partials/footer'); %>

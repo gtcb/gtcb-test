@@ -1,0 +1,31 @@
+<%- include('../partials/header'); %>
+
+<div class= "jumbotron">
+    <h1>Reptile Photo Gallery</h1>
+</div>
+</header>
+
+<main>
+    <div class= "gallery-head">
+        <% if(currentUser) { %>
+            <a class= "btn btn-success btn-lg" href= "/reptiles/new">Add Reptile Photo</a>
+        <% } %>
+    </div>
+
+    <div class= "container">
+        <div class= "row photo-gallery">
+            <% reptiles.forEach(function(reptile) { %>
+                <div class= "col-md-4">
+                    <a href= "reptiles/<%= reptile._id %>"><img src= <%= reptile.image %> height= "300" width= "300"></a>
+                    <% if(currentUser) { %>
+                        <form action="/reptiles/<%= reptile._id %>?_method=DELETE" method= "POST">
+                            <button class= "btn btn-danger">Delete</button>
+                        </form>
+                    <% } %>
+                </div>
+            <% }) %>
+        </div>
+    </div>
+</main>
+
+<%- include('../partials/footer'); %>

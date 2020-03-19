@@ -1,0 +1,98 @@
+main {
+    min-height: calc(100vh - 367.33px - 160px);
+}
+
+footer .col-md-6 {
+    width: 600px;
+    height: 100px;
+}
+
+footer {
+    margin: 0;
+}
+
+footer .row {
+    height: 80px;
+}
+
+.show-page {
+    margin-bottom: 50px;
+}
+
+.navbar {
+    margin: 0;
+}
+
+.jumbotron {
+    margin-top: 0;
+    padding: 100px;
+    background-image: url("https://p0.pikrepo.com/preview/525/473/bearded-dragon-reptile.jpg");
+    background-repeat: no-repeat;
+    background-size: 1550px 350px;
+}
+
+.jumbotron h1 {
+    margin-left: 0;
+    color: white;
+}
+
+.about-body {
+    margin: 30px;
+    font-size: 20px;
+}
+
+form input {
+    color: black;
+}
+
+.row {
+    height: 350px;
+}
+
+.row button {
+    margin-top: 5px;
+}
+
+.gallery-head {
+    margin: 30px;
+}
+
+.col-md-4 {
+    margin-bottom: 20px;
+}
+
+.admin-center-body {
+    margin: 30px;
+}
+
+#first-account-detail {
+   margin-top: 30px;
+}
+
+#add-photo-buttons {
+    margin-top: 30px;
+}
+
+body {
+    background: #000000;
+    color: white;
+}
+
+.new-photo-form {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.main-body {
+    margin: 30px;
+    font-size: 20px;
+}
+
+footer {
+    color: white;
+    text-align: center;
+}
+
+.row {
+    margin: 30px;
+}

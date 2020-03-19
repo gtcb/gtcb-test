@@ -1,0 +1,16 @@
+<%- include('../partials/header'); %>
+
+<div class= "jumbotron">
+    <h1><%= reptile.title %></h1>
+</div>
+</header>
+
+<main>
+    <div class= "show-page">
+        <img src= <%= reptile.image %> height= "300" width= "300">
+        <h1><%= reptile.title %></h1>
+        <h3>Photo ID: <%= reptile.photoID %></h3>
+    </div>
+</main>
+
+<%- include('../partials/footer'); %>

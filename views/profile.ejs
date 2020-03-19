@@ -1,0 +1,23 @@
+<%- include('partials/header'); %>
+
+<div class= "jumbotron">
+    <h1>Admin Center</h1>
+</div>
+</header>
+
+<main>
+    <div class= "admin-center-body">
+        <h3>This page is for users to view details of their accounts and add new photos to the photo gallery!</h3>
+        <h4 id= "first-account-detail">Name: <%= currentUser.name %></h4>
+        <h4>Name: <%= currentUser.email %></h4>
+        <h4>Name: <%= currentUser.username %></h4>
+
+        <div id= "add-photo-buttons">
+            <h4><a class= "btn btn-success btn-lg" href= "/register">Add New User</a></h4>
+            <h4><a class= "btn btn-success btn-lg" href= "/reptiles/new">Add New Reptile Photo</a></h4>
+            <h4><a class= "btn btn-success btn-lg" href= "/plants/new">Add New Plant Photo</a></h4>
+        </div>
+    </div>
+</main>
+
+<%- include('partials/footer'); %>
