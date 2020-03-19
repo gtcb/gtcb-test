@@ -29,8 +29,6 @@ app.set("view engine", "ejs");
 
 app.locals.moment = require("moment");
 
-var port = process.env.PORT || 3000;
-
 var url = "mongodb+srv://gtcb:gtcbadmin@gtcb-6fx9w.mongodb.net/test?retryWrites=true&w=majority";
 
 //mongoose.connect("mongodb://localhost:27017/gtcb-brianna", {useUnifiedTopology: true, useNewUrlParser: true});
