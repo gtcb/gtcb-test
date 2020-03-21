@@ -40,7 +40,6 @@ app.use(methodOverride("_method"));
 
 app.use(cookieParser('secret'));
 
-app.set("view engine", "ejs");
 mongoose.set('useCreateIndex', true);
 
 //=========================
