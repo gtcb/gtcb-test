@@ -11,6 +11,7 @@ var methodOverride = require("method-override"),
 	connect 	   = require("connect"),
 	newApp 		   = require("connect"),
 	flash 		   = require("connect-flash"),
+	async 		   = require("async"),
 	User		   = require("./models/user"),
 	app 		   = express();
 

@@ -1,6 +1,7 @@
 var middleWare = require("../middleware/index.js"),
     express    = require("express"),
-    router     = express.Router();
+    router     = express.Router(),
+    async      = require("async");
 
 //====================
 //     Routes

@@ -1,7 +1,8 @@
 var middleWare = require("../middleware/index.js"),
     express    = require("express"),
     router     = express.Router(),
-    Plant	   = require("../models/plant");
+	Plant	   = require("../models/plant"),
+	async 	   = require("async");
 
 //====================
 //     Routes

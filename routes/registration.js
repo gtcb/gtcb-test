@@ -4,7 +4,8 @@ var middleWare = require("../middleware/index.js"),
 	express    = require("express"),
 	mongoose   = require("mongoose"),
 	mongo      = require("mongodb"),
-	router     = express.Router();
+	router     = express.Router(),
+	async 	   = require("async");
 
 //=========================
 //     Routes
