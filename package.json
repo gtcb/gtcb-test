@@ -15,7 +15,7 @@
     "express-session": "^1.17.0",
     "heroku-cli": "^7.0.9",
     "method-override": "^3.0.0",
-    "moment": "^2.24.0",
+    "moment": "^2.29.2",
     "moment-timezone": "^0.5.28",
     "mongodb": "^2.2.36",
     "mongoose": "^5.0.15",
